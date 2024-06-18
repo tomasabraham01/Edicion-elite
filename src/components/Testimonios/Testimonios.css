@@ -1,0 +1,6 @@
+.imagen {
+  max-width: 70%;
+  /* ancho máximo de la imagen */
+  height: auto;
+  /*  altura de la imagen */
+}

@@ -1,0 +1,46 @@
+.descripcion {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+
+  padding: 120px;
+
+}
+
+.logo-left,
+.logo-right {
+  width: 20%;  
+ 
+}
+
+.text-container {
+
+  width: 35%; 
+  text-align: center;
+  color: white;
+}
+
+
+.logo-left img,
+.logo-right img {
+  max-width: 80%;
+  height: auto;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  .descripcion {
+    flex-direction: column; 
+    padding: 60px; 
+  }
+  
+  .logo-left,
+  .logo-right,
+  .text-container {
+    width: 100%; 
+    margin-bottom: 20px; 
+  }
+}

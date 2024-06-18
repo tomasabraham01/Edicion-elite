@@ -1,0 +1,21 @@
+.tip3{
+color: blueviolet;
+
+
+
+}
+.tip16 {
+    width: 40px; 
+    margin-right: 40px;
+
+}
+
+@media screen and (max-width: 769px) {
+    .tip16{
+margin-right: 0px;
+margin-top: 10px;
+
+    }
+    
+
+}

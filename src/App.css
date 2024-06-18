@@ -1,0 +1,15 @@
+.diseño {
+  display: grid;
+  grid-template-columns: 1fr 0.6fr;
+
+  justify-content: space-between;
+  align-items: stretch;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  .diseño {
+    grid-template-columns: 1fr;
+  }
+}

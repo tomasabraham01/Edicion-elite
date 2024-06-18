@@ -1,0 +1,61 @@
+.tipf {
+  text-align: center;
+  margin-bottom: 20px;
+  /* espacio entre el título y el formulario */
+
+}
+
+.formulario {
+  max-width: 500px;
+  /* Ancho del formulario */
+  margin: 0 auto;
+}
+
+.diseñoformulario {
+  display: inline-block;
+  margin-bottom: 5px;
+
+}
+
+
+.datosdelformulario,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(14, 14, 14);
+  background-color: rgb(14, 14, 14);
+  color: rgb(255, 255, 255);
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  background-color: #141414;
+  /*  botón */
+  color: rgb(253, 252, 252);
+  /*  texto */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+.tipf {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.fondodeformulario {
+
+  background-color: #030303;
+  color: rgb(255, 255, 255);
+}

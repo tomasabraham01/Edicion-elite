@@ -1,0 +1,61 @@
+.explicacion-container {
+  text-align: center;
+  background-image: url('src/components/Explicacion/fondo R,E,M.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+
+  color: white;
+  padding: 20px;
+}
+
+.titulo-principal {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.textojuntos {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  /*espacio entre los elementos */
+}
+
+.izquierda,
+.centro,
+.derecha {
+  flex: 1;
+  padding: 20px;
+}
+
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .explicacion-container {
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .textojuntos {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .izquierda,
+  .centro,
+  .derecha {
+    padding: 10px;
+  }
+}

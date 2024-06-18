@@ -1,0 +1,91 @@
+.titulo {
+    display: inline;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: larger;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    height: 30vh;
+}
+
+.navegador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    font-weight: 800;
+}
+
+.titulo-trabajos {
+    margin-right: 40px;
+    text-decoration:none ;
+}
+
+.titulo-argentina {
+    margin-right: 40px;
+    margin-bottom: 25px;
+}
+
+.contenedor-imagen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+    .titulo {
+        font-size: large;
+        text-align: center;
+        display: block;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        display: none;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        height: 25vh;
+        width: 100%;
+    }
+
+    .navegador {
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+        display: flex;
+    }
+
+    .titulo-trabajos,
+    .titulo-argentina {
+        margin-right: 0;
+        margin-bottom: 15px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
