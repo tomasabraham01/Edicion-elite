@@ -48,9 +48,9 @@ body{
 
 
 
-/*
 
-html h1{
+
+html h1,h2,h3,a{
 font-family:letra1;
 
 }
@@ -60,7 +60,7 @@ font-family:letra1;
   
 }
 
-html p,a,label {
+html p,li label {
   font-family: letra2;
 }
 
@@ -69,4 +69,3 @@ src: url("./assets/Fuentes/Roboto-Bold.ttf");
 font-family: letra2;
 
 }
-*/

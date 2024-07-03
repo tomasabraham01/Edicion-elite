@@ -1,19 +1,13 @@
 import './Videop.css';
+import Cuadrante from '../Contenido/Cuadrante';
 
 export default function Videop() {
   return (
     <div className='videoyoutube'>
-      <iframe
+      <Cuadrante
 
-        src="https://www.youtube.com/embed/GbFh_goNPwY?si=QLXDChgbHDkr4R7f" // video de YouTube
-        title="YouTube video player"
-        height={"60%"}
-        width={"60%"}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-        referrerPolicy="strict-origin-when-cross-origin"
-      ></iframe>
+ img='src/components/Videoinformativo/pic.png' video="/tuma video competicion 1.mp4"  titulo="DEPORTE" 
+      ></Cuadrante>
     </div>
 
   );

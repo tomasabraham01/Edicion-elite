@@ -41,7 +41,7 @@ function App() {
      <Formulario/>
      </div>
      <Descripcion/>
-     {mostrar&&<Videop/>}
+
      <Videoinformativo mostrar={vervideo} />
      <Explicacion/>
      <Llamado/>

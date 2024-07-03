@@ -9,7 +9,7 @@ export default function Llamado() {
                     <p>¿Necesitas atencion inmediata?</p>
                 </div>
                 <div class="botondellamada">
-                    <a href="tel:+5493512800318" class="formato al boton">Llamar ahora</a>
+                    <a href="tel:+5492657625115" class="formato al boton">Llamar ahora</a>
                 </div>
             </div>
         </div>
