@@ -1,17 +1,13 @@
-
-
+import '../Contenido/Contenido.css';
 import './Videoinformativo.css';
 import logoplay from './boton play.png';
 import mundo from './mundo.png.png';
 
 import React, { useState, useRef } from 'react';
 
-
-
-export default function Videoinformativo(){
+export default function Videoinformativo() {
 
     const [expandido, setExpandido] = useState(false);
-    const [play, setPlay] = useState(false);
     const videoref = useRef(null)
     const handleToggleExpandido = () => {
         setExpandido(!expandido);
@@ -19,34 +15,26 @@ export default function Videoinformativo(){
     };
 
     return (
-        <div className={`contenido ${expandido ? 'expandido' : ''}`} onClick={handleToggleExpandido}>
-            {expandido ? (
-                <>
-                    <video controls ref={videoref}>
-                        <source src={`src/components/Contenido/videos/${video}`} type="video/mp4" />
-                        Tu navegador no soporta el elemento de video.
-                    </video> </>
-            ) : (
-            
-                    <div className='video-container'>
-
-
-
-                        <div className='texto-derecha'>
-                            <h2>Trabajamos con una amplia
-                                gama de clientes nacionales e internacionales</h2>
-
-                            <img src={mundo} alt="el mundo en el texto" />
+        <div className='video-container'>
+            <div className='texto-derecha'>
+                <h2>Trabajamos con una amplia
+                    gama de clientes nacionales e internacionales</h2>
+                <img src={mundo} alt="el mundo en el texto" />
+            </div>
+            <div className='portada' onClick={handleToggleExpandido}>
+                    {expandido ? (
+                        <div className={`contenido expandido`} style={{ width: '100%', height: '100%' }}>
+                            <video controls ref={videoref}>
+                                <source src={`src/components/Contenido/videos/Marca.MP4`} type="video/mp4" />
+                                Tu navegador no soporta el elemento de video.
+                            </video> 
                         </div>
-                        <div className='portada'>
-
-                            <button className='videodeentrada' >
-                                <img src={logoplay} alt="logodelosvideos" />
-                            </button>
-                        </div>
-                    </div>
-                
-            )}
+                    ) : (
+                        <button className='videodeentrada' >
+                            <img src={logoplay} alt="logodelosvideos" />
+                        </button>
+                    )}
+            </div>
         </div>
     );
 }

@@ -100,6 +100,9 @@ margin-top: 0px;
 
 }
 
+.footercentro li {
+  font-family: letra2;
+}
 
 @media screen and (max-width:768px) {
   .footercentro {
