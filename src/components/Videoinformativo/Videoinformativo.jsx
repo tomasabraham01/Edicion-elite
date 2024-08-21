@@ -25,7 +25,7 @@ export default function Videoinformativo() {
                     {expandido ? (
                         <div className={`contenido expandido`} style={{ width: '100%', height: '100%' }}>
                             <video controls ref={videoref}>
-                                <source src={`src/components/Contenido/videos/Marca.MP4`} type="video/mp4" />
+                                <source src={`src/components/Videoinformativo/informativo.mp4`} type="video/mp4" />
                                 Tu navegador no soporta el elemento de video.
                             </video> 
                         </div>

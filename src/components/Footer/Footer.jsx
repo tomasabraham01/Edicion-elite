@@ -47,7 +47,7 @@ export default function Footer() {
           </div>
           <div className="contact-info">
           <a href="mailto:tomasabraham01@hotmail.com"> <img src={Email} alt="Email" /></a>
-            <a href="mailto:tomasabraham01@hotmail.com"> <p>ejemplo@gmail.com</p></a>
+            <a href="mailto:tomasabraham01@hotmail.com"> <p>tomasabraham01@hotmail.com</p></a>
           </div>
           <div className="contact-info">
             <img src={Location} alt="Ubicación" />

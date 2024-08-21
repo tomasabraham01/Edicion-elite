@@ -8,7 +8,7 @@ import React, { useState, useEffect } from 'react';
 const imagenes = [
   'src/components/Imagenes/1.png',
   'src/components/Imagenes/2.png',
-
+'src/components/Imagenes/pc.png',
 ];
 
 export default function Galeria() {
