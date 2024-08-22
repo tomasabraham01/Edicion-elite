@@ -1,14 +1,15 @@
-
-
+import imagen1 from "../Imagenes/1.png"
+import imagen2 from "../Imagenes/2.png"
+import imagen3 from "../Imagenes/pc.png"
 import './Imagenes.css';
 
 
 import React, { useState, useEffect } from 'react';
 
 const imagenes = [
-  'src/components/Imagenes/1.png',
-  'src/components/Imagenes/2.png',
-'src/components/Imagenes/pc.png',
+  imagen1,
+  imagen2,
+imagen3,
 ];
 
 export default function Galeria() {

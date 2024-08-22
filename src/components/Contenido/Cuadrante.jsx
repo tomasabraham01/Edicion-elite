@@ -22,7 +22,7 @@ export default function Cuadrante({ titulo,img,video}) {
         </video> </>
       ) : (
         <>
-          <img src={`src/components/Contenido/${img}`} alt={`Portada de ${titulo}`} />
+          <img src={img} alt={`Portada de ${titulo}`} />
           <div className="overlay">
             <h3>{titulo}</h3>
           </div>

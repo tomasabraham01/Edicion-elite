@@ -1,5 +1,7 @@
 import React from 'react';
 import './Explicacion.css';
+import fondo from "./fondo.png"
+
 
 export default function Explicacion() {
   return (

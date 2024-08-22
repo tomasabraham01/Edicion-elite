@@ -1,5 +1,6 @@
 import React from 'react';
 import './Texto.css';
+import fondot from "./fondot.png"
 
 export default function Texto() {
   return (

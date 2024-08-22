@@ -2,6 +2,8 @@ import '../Contenido/Contenido.css';
 import './Videoinformativo.css';
 import logoplay from './boton play.png';
 import mundo from './mundo.png.png';
+import portada from "./pic.png"
+import video from "../Videoinformativo/informativo.mp4"
 
 import React, { useState, useRef } from 'react';
 
@@ -25,7 +27,7 @@ export default function Videoinformativo() {
                     {expandido ? (
                         <div className={`contenido expandido`} style={{ width: '100%', height: '100%' }}>
                             <video controls ref={videoref}>
-                                <source src={`src/components/Videoinformativo/informativo.mp4`} type="video/mp4" />
+                                <source src={video} type="video/mp4" />
                                 Tu navegador no soporta el elemento de video.
                             </video> 
                         </div>

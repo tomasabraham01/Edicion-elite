@@ -1,6 +1,7 @@
 import React from 'react';
 import './Formulario.css';
 
+
 function Formulario() {
   return (
     <div className='fondodeformulario'>
