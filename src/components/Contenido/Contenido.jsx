@@ -1,6 +1,6 @@
 import Cuadrante from "./Cuadrante";
 import './Contenido.css';
-import deporte from "../Contenido/deporte.jpg"
+import deporte from "./deporte.jpg"
 import comida from "../Contenido/ger.png"
 import personal from "../Contenido/marcapersonal.png"
 import elite from "../Contenido/elite.png"
