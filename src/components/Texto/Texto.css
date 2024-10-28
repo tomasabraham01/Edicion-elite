@@ -22,7 +22,7 @@
 
 
 .servicios {
-  background-image: url(../../assets/imagen/fondot.png);
+  background-image: url("../../assets/imagen/fondot.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
