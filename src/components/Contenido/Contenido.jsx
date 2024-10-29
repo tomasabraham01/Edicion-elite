@@ -1,30 +1,40 @@
 import Cuadrante from "./Cuadrante";
 import './Contenido.css';
 import deporte from "./deporte.jpg"
-import comida from "../Contenido/ger.png"
-import personal from "../Contenido/marcapersonal.png"
-import elite from "../Contenido/elite.png"
-import atleta from "../Contenido/atle.png"
-import motion from "../Contenido/2d.png"
-import psico from "../Contenido/psico.png"
-import nutri from "../Contenido/nutri.jpg"
-import perfume from "../Contenido/esta.png"
-import traiding from "../Contenido/traiding.jpg"
+import comida from "./ger.png"
+import personal from "./marcapersonal.png"
+import elite from "./elite.png"
+import atleta from "./atle.png"
+import motion from "./2d.png"
+import psico from "./psico.png"
+import nutri from "./nutri.jpg"
+import perfume from "./esta.png"
+import traiding from "./traiding.jpg"
 
+import competicion from "/videos/competicion1.mp4"
+import gerva4 from "/videos/gerva4.mp4"
+import marca from "/videos/marca.mp4"
+import adviser from "/videos/adviser.mp4"
+import lucho from "/videos/lucho.mp4"
+import graphic from "/videos/graphic.mp4"
+import asier from "/videos/asier.mp4"
+import alex from "/videos/alex.mp4"
+import perfume1 from "/videos/perfume.mp4"
+import jorge from "/videos/jorge.mp4"
 
 function Contenido() {
   return (
     <div id='cuadrantes' className='cuadrantes'>
-      <Cuadrante img={deporte} video="/tuma video competicion 1.mp4"  titulo="DEPORTE" />
-      <Cuadrante img={comida} video="/gerva receta 4.mp4" titulo="GASTRONOMIA" />
-      <Cuadrante img={personal} video="/marca.MP4" titulo="MARCA PERSONAL" />
-      <Cuadrante img= {elite} video="/ADVISER VIDEO.MP4" titulo="ELITE ADVISER" />
-      <Cuadrante img={atleta} video="/LUCHO MARVEL.mp4" titulo="ATLETA" />
-      <Cuadrante img={motion} video="/GRAPHIC.mp4" titulo="MOTION GRAPHICS" />
-      <Cuadrante img={psico} video="/ASIER VIDEO.mp4" titulo="PSICOLOGO DEPORTIVO" />
-      <Cuadrante img={nutri} video="/alex video pag.mp4" titulo="NUTRICIONISTA" />
-      <Cuadrante img={perfume} video="/PERFUME ESTE.mp4" titulo="PUBLICIDAD" />
-      <Cuadrante img={traiding} video="src/components/Contenido/videos/jorge.mp4/jorge.mp4" titulo="JORGE CAMPOS" />
+      <Cuadrante img={deporte} video={competicion} titulo="DEPORTE" />
+      <Cuadrante img={comida} video={gerva4} titulo="GASTRONOMIA" />
+      <Cuadrante img={personal} video={marca} titulo="MARCA PERSONAL" />
+      <Cuadrante img= {elite} video={adviser} titulo="ELITE ADVISER" />
+      <Cuadrante img={atleta} video={lucho} titulo="ATLETA" />
+      <Cuadrante img={motion} video={graphic} titulo="MOTION GRAPHICS" />
+      <Cuadrante img={psico} video={asier} titulo="PSICOLOGO DEPORTIVO" />
+      <Cuadrante img={nutri} video={alex} titulo="NUTRICIONISTA" />
+      <Cuadrante img={perfume} video={perfume1} titulo="PUBLICIDAD" />
+      <Cuadrante img={traiding} video={jorge} titulo="JORGE CAMPOS" />
     </div>
   );
 }

@@ -5,11 +5,11 @@ import './Contenido.css';
 
 export default function Cuadrante({ titulo,img,video}) {
   const [expandido, setExpandido] = useState(false);
-  const [play, setPlay] = useState(false);
+
   const videoref=useRef(null) 
   const handleToggleExpandido = () => {
-    setExpandido(!expandido);
-    if (expandido){videoref.current.play()} else{videoref.current.pause()}
+    setExpandido(val => !val);
+    (expandido) ? videoref.current.play() : videoref.current.pause()
   };
 
   return (
@@ -17,7 +17,7 @@ export default function Cuadrante({ titulo,img,video}) {
       {expandido ? (
         <>
         <video controls ref={videoref}>
-          <source src={`src/components/Contenido/videos/${video}`} type="video/mp4" />
+          <source src={video} type="video/mp4" />
           Tu navegador no soporta el elemento de video.
         </video> </>
       ) : (
