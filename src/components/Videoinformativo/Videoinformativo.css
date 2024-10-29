@@ -17,7 +17,7 @@
   width: 50%;
   /* Ancho completo del contenedor */
   height: 472px;
-  background-image: url('src/components/Videoinformativo/pic.png');
+  background-image: url('/images/pic.png');
   background-size: cover;
   display: grid;
   place-items: center;

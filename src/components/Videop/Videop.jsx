@@ -1,6 +1,6 @@
 import './Videop.css';
 import Cuadrante from '../Contenido/Cuadrante';
-import portada from "../Videoinformativo/pic.png"
+import portada from "/images/pic.png"
 
 export default function Videop() {
   return (

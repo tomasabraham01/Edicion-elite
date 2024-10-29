@@ -2,7 +2,6 @@ import '../Contenido/Contenido.css';
 import './Videoinformativo.css';
 import logoplay from './boton play.png';
 import mundo from './mundo.png.png';
-import portada from "./pic.png"
 import video from "../Videoinformativo/informativo.mp4"
 
 import React, { useState, useRef } from 'react';
